@@ -9,7 +9,7 @@ pipeline {
                 sh 'mvn --version'
                 sh 'git --version'
                 git branch: 'master'
-                    url: 'https://github.com/LinkedInLearning/essential-jenkins-2468076.git',
+                    url: 'https://github.com/vikaskaushik3/run_pipeline_on_ssh_agent.git',
                     credentialsId:
             }
         
