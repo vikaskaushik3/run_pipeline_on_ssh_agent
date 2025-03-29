@@ -8,11 +8,8 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'git --version'
-                git branch: 'master'
-                    url: 'https://github.com/vikaskaushik3/run_pipeline_on_ssh_agent.git',
-                    credentialsId:
+                git branch: 'master', url: 'https://github.com/vikaskaushik3/run_pipeline_on_ssh_agent.git'
             }
-        
         }
 
         stage('Clean') {
