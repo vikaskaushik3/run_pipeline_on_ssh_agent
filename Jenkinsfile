@@ -8,7 +8,7 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'git --version'
-                git branch: 'main'
+                git branch: 'master'
                     url: 'https://github.com/LinkedInLearning/essential-jenkins-2468076.git',
                     credentialsId:
             }
